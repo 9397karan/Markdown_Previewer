@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marked in the Browser</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Markdown Previewer</h1>
+    </header>
+    <div class="container">
+      <textarea name="textArea" id="textArea" rows="30" cols="100"></textarea>
+      <div id="content"></div>
+      <button id="downloadButton">Download README.md</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+   <script src="script.js"></script>
+  </body>
+</html>
