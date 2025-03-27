@@ -26,4 +26,4 @@ This is a simple Markdown Previewer built using HTML, JavaScript, and the Marked
 
 ## Deployment
 The application is hosted online. You can access it here:
-[Live Demo](YOUR_DEPLOYMENT_LINK)
+[Live Demo](https://9397karan.github.io/Markdown_Previewer/)
